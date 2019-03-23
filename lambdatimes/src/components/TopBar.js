@@ -53,7 +53,7 @@ const TopBarLeft = styled.div `
   font-size: 11px;
 `;
 
-const TopBarLeftSpan = styled.div `
+const TopBarLeftSpan = styled.span `
   cursor: pointer;
   margin-right: 25%;
   font-weight: bold;
@@ -67,7 +67,7 @@ const TopBarCenter = styled.div `
   flex: 3;
   font-size: 9px;
 `;
-const TopBarCenterSpan = styled.div `
+const TopBarCenterSpan = styled.span `
   cursor: pointer;
   margin-right: 5%;
   &:last-child {
@@ -87,7 +87,7 @@ const TopBarRight = styled.div `
   font-size: 11px;
   font-weight: bold;
 `;
-const TopBarRightSpan = styled.div `
+const TopBarRightSpan = styled.span `
   cursor: pointer;
 `;
 
