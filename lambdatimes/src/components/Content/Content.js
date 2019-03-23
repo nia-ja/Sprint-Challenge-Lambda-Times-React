@@ -23,6 +23,7 @@ export default class Content extends Component {
 
   changeSelected = tab => {
     // this function should take in the tab and update the state with the new tab.
+    this.setState({selected: tab});
   };
 
   filterCards = () => {
@@ -44,6 +45,7 @@ export default class Content extends Component {
   render() {
     // console.log(this.state.tabs);
     // console.log(this.state.cards);
+    console.log(this.state.selected);
     return (
       <div className="content-container">
         {/* 
